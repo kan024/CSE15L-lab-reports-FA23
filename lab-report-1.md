@@ -17,4 +17,8 @@ CD Command
 - The output 'not a directory' occured because the file I wanted to go to was not a directory. Somehow it went to messages as the directory, likely because it is the closest
 - This is an input error, because the file is not a directory. 
 
+LS Command
+1. Share an example of using the command with no arguments.
+![cd1](image5.png)
+-
 
