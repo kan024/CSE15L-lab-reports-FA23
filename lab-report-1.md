@@ -36,3 +36,23 @@ LS Command
 - I got the output because a file cannot contain other files within it. There are no files or directory's in the file.
 - The output is an error because I did not give the right command. 
 
+Cat Command
+1. Share an example of using the command with no arguments.
+![cd1](image8.png)
+- There is no working directory
+- There is no output because cat prints out a file you give it. In this case there is no file
+- there is an error because there is no file.
+
+2. Share an example of using the command with a path to a directory as an argument.
+![cd1](image10.png)
+- The working directory is lecture1
+- Cat only works when printing files, in this case since lecture1 is a directory they gave us the result
+- This is an error because a directory will not print anything
+
+  3. Share an example of using the command with a path to a file as an argument.
+![cd1](image9.png)
+- The working directory is lecture1
+- The output is the contents of Hello.class file found in lecture1
+- There is no error, because cat prints out a file and in this case the file Hello.class was given.
+
+
