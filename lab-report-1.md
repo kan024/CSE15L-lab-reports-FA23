@@ -1,7 +1,7 @@
 CD Command
 1. Share an example of using the command with no arguments.
 ![cd1](image1.png)
-- The working directory is the main directory
+- The working directory is the main directory, 'lab 1'
 - There was no output when using cd means change directory, and there was no directory we were heading to
 - The output is not an error, there was just not enough information to give a more meaningful output
   
@@ -20,5 +20,12 @@ CD Command
 LS Command
 1. Share an example of using the command with no arguments.
 ![cd1](image5.png)
--
+- The working directory is 'lab 1'
+- LS lists the files and folders given the path. Since there was no path, the ls is in the main directory. It listed 'lab 1' because that i a directory and 'lecture1' because that is also a directory
+- The output is not an error
+- 2. Share an example of using the command with a path to a directory as an argument.
+![cd1](image6.png)
+- The working directory is 'lecture1'
+- LS lists the files and folders of the given path. In the lecture1 directory is Hello.class file, Hello.java file, read me, and messages folder. The messages is blue because it is a folder.
+- The output is not an error
 
