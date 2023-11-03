@@ -12,10 +12,10 @@ __1. Find Option 1__
 
 __Command 1__
 
-T@DESKTOP-84E1182 MINGW64 ~/Documents/GitHub/lab3/docsearch (main)
-`$ find technical/plos -size +20k`
+T@DESKTOP-84E1182 MINGW64 ~/Documents/GitHub/lab3/docsearch (main) `$ find technical/plos -size +20k`
 
 __Output 1__
+
 `technical/plos/journal.pbio.0020053.txt
 technical/plos/journal.pbio.0020054.txt
 technical/plos/journal.pbio.0020113.txt
@@ -47,8 +47,31 @@ technical/plos/pmed.0020160.txt
 technical/plos/pmed.0020162.txt`
 
 __Explanation 1__
+
 The `find -size` command searches for files that are more, less than, or equal the size we give. `$ find technical/plos -size +20k` in this case finds all files in `technical`'s directory `plos` that is greater than 20 kilobytes. We search greater because of the `+20k` part of the command. This is useful if we are trying locate and delete files over a certain size, or if we are trying to categorize files by size. 
 
-__Command 1__
-__Output 1__
-__Explanation 1__
+__Command 2__
+
+T@DESKTOP-84E1182 MINGW64 ~/Documents/GitHub/lab3/docsearch (main) `$ find technical/biomed -size -30k`
+
+__Output 2__
+
+`technical/biomed
+technical/biomed/1468-6708-3-1.txt
+technical/biomed/1468-6708-3-3.txt
+technical/biomed/1468-6708-3-7.txt
+technical/biomed/1471-2091-2-10.txt
+technical/biomed/1471-2091-2-12.txt
+technical/biomed/1471-2091-2-13.txt
+technical/biomed/1471-2091-2-16.txt
+technical/biomed/1471-2091-2-7.txt
+technical/biomed/1471-2091-2-9.txt
+technical/biomed/1471-2091-3-13.txt
+technical/biomed/1471-2091-3-8.txt
+technical/biomed/1471-2091-4-5.txt
+technical/biomed/1471-2105-2-9.txt
+technical/biomed/1471-2105-3-12.txt
+technical/biomed/1471-2105-3-22.txt`
+
+__Explanation 2__
+The `find -size` command searches for files that are more, less than, or equal the size we give. `$ find technical/plos -size -30k` in this case finds all files in `technical`'s directory `plos` that is less than 30 kilobytes. We search less because of the `-20k` part of the command. This is useful if we are trying locate and delete files over a certain size, or if we are trying to categorize files by size. 
