@@ -8,7 +8,7 @@
 - Briefly describe why the fix addresses the issue.
 
 
-1. Find Option 1
+</u>1. Find Option 1</u>
 
 __Command 1__
 T@DESKTOP-84E1182 MINGW64 ~/Documents/GitHub/lab3/docsearch (main)
