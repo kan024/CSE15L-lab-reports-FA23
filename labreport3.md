@@ -48,3 +48,6 @@ technical/plos/pmed.0020162.txt`
 __Explanation 1__
 The `find -size` command searches for files that are more, less than, or equal the size we give. `$ find technical/plos -size +20k` in this case finds all files in `technical`'s directory `plos` that is greater than 20 kilobytes. We search greater because of the `+20k` part of the command. This is useful if we are trying locate and delete files over a certain size, or if we are trying to categorize files by size. 
 
+__Command 1__
+__Output 1__
+__Explanation 1__
