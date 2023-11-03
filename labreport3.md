@@ -165,11 +165,17 @@ The `find -mtime` command searches for files based on when they were last modifi
 
 __Command 2__
 
+T@DESKTOP-84E1182 MINGW64 ~/Documents/GitHub/lab3/docsearch (main)
+`$ find technical/biomed -mtime 0`
 
 __Output 2__
-
+`technical/biomed
+technical/biomed/1468-6708-3-1.txt
+technical/biomed/1468-6708-3-3.txt`
 
 __Explanation 2__
+
+The `find -mtime` command searches for files based on when they were last modified. In this case the `-mtime 0` part of the command searches for files that were modified in the last  day. This is helpful if you are looking for a file you recently modified, or looking for a files you modified a certain number of days ago. 
 
 __4. Find -mtime__
 
