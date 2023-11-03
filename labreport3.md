@@ -1,11 +1,11 @@
 __Part 1__
 - A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 
-`  @Test
+{{{@Test
   public void testReversed() {
     int[] input1 = {1,2,3 };
     assertArrayEquals(new int[]{ 3,2,1}, ArrayExamples.reversed(input1));
-  }`
+  }}}}
 
 
 - An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
