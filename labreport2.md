@@ -6,6 +6,7 @@
 ![img1](3lab2.png)
 
 **Which methods in your code are called?**
+`public String handleRequest(URI url)` was called using `url` as the parameter. The `url` parameter in this case is 0-0-0-0-7002-d8sh5s4cg7kt7iipasqau8sr00.us.edusercontent.com/add-message?s=Hello 
 - getPath()
 - contains()
 - getQuery()
@@ -24,6 +25,7 @@
 ![img1](2lab2.png)
 
 **Which methods in your code are called?**
+`public String handleRequest(URI url)` was called using `url` as the parameter. The `url` parameter in this case is 0-0-0-0-7002-d8sh5s4cg7kt7ipasqau8sr00.us.edusercontent.com/add-message?s=How620are%20you 
 - getPath()
 - contains()
 - getQuery()
