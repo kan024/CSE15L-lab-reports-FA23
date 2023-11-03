@@ -37,7 +37,7 @@
 2. How are you"
   
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
-- the int variable 'num' is changed with every request, and is being increased by one after every request. The variable String statements is also being changed and added onto with every request.
+- the int variable `num` is changed with every request, and is being increased by one after every request. The variable String statements is also being changed and added onto with every request.
 - When /add-message?s=How are you is being used, the variable num changes from 1 to 2. The statement string is being added on to. It goes from "1. Hello" to "1. Hello \n 2. How are you"
 
 **Part 2**
