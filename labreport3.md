@@ -15,7 +15,7 @@ T@DESKTOP-84E1182 MINGW64 ~/Documents/GitHub/lab3/docsearch (main)
 `$ find technical/plos -size +20k`
 
 __Output 1__
-`technical/plos/journal.pbio.0020053.txt
+```technical/plos/journal.pbio.0020053.txt
 technical/plos/journal.pbio.0020054.txt
 technical/plos/journal.pbio.0020113.txt
 technical/plos/journal.pbio.0020161.txt
@@ -43,5 +43,5 @@ technical/plos/pmed.0020103.txt
 technical/plos/pmed.0020123.txt
 technical/plos/pmed.0020140.txt
 technical/plos/pmed.0020160.txt
-technical/plos/pmed.0020162.txt`
+technical/plos/pmed.0020162.txt```
 
