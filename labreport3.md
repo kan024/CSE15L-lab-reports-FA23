@@ -8,7 +8,7 @@
 - Briefly describe why the fix addresses the issue.
 
 
-__1. Find Option 1__
+__1. Find -Size__
 
 __Command 1__
 
@@ -75,3 +75,65 @@ technical/biomed/1471-2105-3-22.txt`
 
 __Explanation 2__
 The `find -size` command searches for files that are more, less than, or equal the size we give. `$ find technical/plos -size -30k` in this case finds all files in `technical`'s directory `plos` that is less than 30 kilobytes. We search less because of the `-20k` part of the command. This is useful if we are trying locate and delete files over a certain size, or if we are trying to categorize files by size. 
+
+__2. Find -Type__
+
+__Command 1__
+
+T@DESKTOP-84E1182 MINGW64 ~/Documents/GitHub/lab3/docsearch (main)
+`$ find technical/ -type d`
+
+__Output 1__
+
+`technical/
+technical/911report
+technical/biomed
+technical/government
+technical/government/About_LSC
+technical/government/Alcohol_Problems
+technical/government/Env_Prot_Agen
+technical/government/Gen_Account_Office
+technical/government/Media
+technical/government/Post_Rate_Comm
+technical/plos`
+
+__Explanation 1__
+
+The `find type` command searches for the type of item listed in the directory. In this case `find -type d` finds and lists all the directories in the directory `technical/` because the `-type d` searches and lists directories. This is relevant in case we are searching for certain subdirectories in a directory. This can also be relevant if you want to count how many subdirectories are in a directory
+
+__Command 2__
+
+T@DESKTOP-84E1182 MINGW64 ~/Documents/GitHub/lab3/docsearch (main)
+`$ find technical/government -type f`
+
+__Output 2__
+
+`technical/government/About_LSC/Comments_on_semiannual.txt
+technical/government/About_LSC/commission_report.txt
+technical/government/About_LSC/conference_highlights.txt
+technical/government/About_LSC/CONFIG_STANDARDS.txt
+technical/government/About_LSC/diversity_priorities.txt
+technical/government/About_LSC/LegalServCorp_v_VelazquezDissent.txt
+technical/government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt
+technical/government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt
+technical/government/About_LSC/ODonnell_et_al_v_LSCdecision.txt
+technical/government/About_LSC/ONTARIO_LEGAL_AID_SERIES.txt
+technical/government/About_LSC/Progress_report.txt
+technical/government/About_LSC/Protocol_Regarding_Access.txt
+technical/government/About_LSC/reporting_system.txt
+technical/government/About_LSC/Special_report_to_congress.txt
+technical/government/About_LSC/State_Planning_Report.txt
+technical/government/About_LSC/State_Planning_Special_Report.txt
+technical/government/About_LSC/Strategic_report.txt
+technical/government/Alcohol_Problems/DraftRecom-PDF.txt
+technical/government/Alcohol_Problems/Session2-PDF.txt
+technical/government/Alcohol_Problems/Session3-PDF.txt
+technical/government/Alcohol_Problems/Session4-PDF.txt
+technical/government/Env_Prot_Agen/1-3_meth_901.txt
+technical/government/Env_Prot_Agen/atx1-6.txt
+technical/government/Env_Prot_Agen/bill.txt
+technical/government/Env_Prot_Agen/ctf1-6.txt`
+
+__Explanation 2__
+
+The `find type` command searches for the type of item listed in the directory. In this case `find -type f` finds and lists all files found in 'technical/government` because the `-type f` searches and lists files. This is relevant in case we are searching for certain files in a directory that are regular files. 
