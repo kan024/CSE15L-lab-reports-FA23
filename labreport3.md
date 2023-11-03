@@ -11,6 +11,7 @@
 __1. Find Option 1__
 
 __Command 1__
+
 T@DESKTOP-84E1182 MINGW64 ~/Documents/GitHub/lab3/docsearch (main)
 `$ find technical/plos -size +20k`
 
