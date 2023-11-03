@@ -136,17 +136,32 @@ technical/government/Env_Prot_Agen/ctf1-6.txt`
 
 __Explanation 2__
 
-The `find type` command searches for the type of item listed in the directory. In this case `find -type f` finds and lists all files found in 'technical/government` because the `-type f` searches and lists files. This is relevant in case we are searching for certain files in a directory that are regular files. 
+The `find -type` command searches for the type of item listed in the directory. In this case `find -type f` finds and lists all files found in 'technical/government` because the `-type f` searches and lists files. This is relevant in case we are searching for certain files in a directory that are regular files. 
 
 __3. Find -mtime__
 
 __Command 1__
 
+T@DESKTOP-84E1182 MINGW64 ~/Documents/GitHub/lab3/docsearch (main)
+`$ find technical/biomed -mtime -7`
 
 __Output 1__
 
+`technical/biomed
+technical/biomed/1468-6708-3-1.txt
+technical/biomed/1468-6708-3-10.txt
+technical/biomed/1468-6708-3-3.txt
+technical/biomed/1468-6708-3-4.txt
+technical/biomed/1468-6708-3-7.txt
+technical/biomed/1471-2091-2-10.txt
+technical/biomed/1471-2091-2-11.txt
+technical/biomed/1471-2091-2-12.txt
+technical/biomed/1471-2091-2-13.txt
+technical/biomed/1471-2091-2-16.txt`
 
 __Explanation 1__
+
+The `find -mtime` command searches for files based on when they were last modified. In this case the `-mtime -7` part of the command searches for files that were modified in the last seven days. This is helpful if you are looking for a file you recently modified, or looking for a files you modified a certain number of days ago. 
 
 __Command 2__
 
