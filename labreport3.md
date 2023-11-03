@@ -137,3 +137,41 @@ technical/government/Env_Prot_Agen/ctf1-6.txt`
 __Explanation 2__
 
 The `find type` command searches for the type of item listed in the directory. In this case `find -type f` finds and lists all files found in 'technical/government` because the `-type f` searches and lists files. This is relevant in case we are searching for certain files in a directory that are regular files. 
+
+__3. Find -mtime__
+
+__Command 1__
+
+
+__Output 1__
+
+
+__Explanation 1__
+
+__Command 2__
+
+
+__Output 2__
+
+
+__Explanation 2__
+
+__4. Find -mtime__
+
+__Command 1__
+
+
+__Output 1__
+
+
+__Explanation 1__
+
+__Command 2__
+
+
+__Output 2__
+
+
+__Explanation 2__
+
+
