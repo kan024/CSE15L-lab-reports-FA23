@@ -46,8 +46,8 @@
 - The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
 - The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
 ![img1](1lab2.png)
-![img1](5lab2.png)
-![img1](6lab2.png)
+![img1](113first.png)
+![img1](113second.png)
 - A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
 ![img1](8lab2.png)
 
