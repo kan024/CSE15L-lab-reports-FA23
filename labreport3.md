@@ -177,22 +177,50 @@ __Explanation 2__
 
 The `find -mtime` command searches for files based on when they were last modified. In this case the `-mtime 0` part of the command searches for files that were modified in the last  day. This is helpful if you are looking for a file you recently modified, or looking for a files you modified a certain number of days ago. 
 
-__4. Find -mtime__
+__4. Find -newermt__
 
 __Command 1__
 
+T@DESKTOP-84E1182 MINGW64 ~/Documents/GitHub/lab3/docsearch (main)
+`$ find technical/government/Post_Rate_comm -newermt "2023-10-01 00:00:00"  ! -newermt "2023-11-03 00:00:00"`
 
 __Output 1__
 
+`technical/government/Post_Rate_comm
+technical/government/Post_Rate_comm/Cohenetal_comparison.txt
+technical/government/Post_Rate_comm/Cohenetal_Cost_Function.txt
+technical/government/Post_Rate_comm/Cohenetal_CreamSkimming.txt
+technical/government/Post_Rate_comm/Cohenetal_DeliveryCost.txt
+technical/government/Post_Rate_comm/Cohenetal_RuralDelivery.txt
+technical/government/Post_Rate_comm/Cohenetal_Scale.txt
+technical/government/Post_Rate_comm/Gleiman_EMASpeech.txt
+technical/government/Post_Rate_comm/Gleiman_gca2000.txt
+technical/government/Post_Rate_comm/Mitchell_6-17-Mit.txt
+technical/government/Post_Rate_comm/Mitchell_RMVancouver.txt
+technical/government/Post_Rate_comm/Mitchell_spyros-first-class.txt
+technical/government/Post_Rate_comm/Redacted_Study.txt
+technical/government/Post_Rate_comm/ReportToCongress2002WEB.txt
+technical/government/Post_Rate_comm/WolakSpeech_usps.txt`
 
 __Explanation 1__
 
+The `-newmt` command finds files modified before a certain date and time. This can be useful if you are looking for files between a time period. 
+
 __Command 2__
 
+T@DESKTOP-84E1182 MINGW64 ~/Documents/GitHub/lab3/docsearch (main)
+`$ find technical/ -newermt "2023-11-2 00:00:00"`
 
 __Output 2__
 
+`technical/biomed
+technical/biomed/1468-6708-3-1.txt
+technical/biomed/1468-6708-3-3.txt`
 
 __Explanation 2__
+The `-newmt` command finds files modified before a certain date and time. In this case we are looking for files modified before 11/2/23 @12am. This can be useful if you are looking for files between a time period. 
 
+__Sources:__
+https://tecadmin.net/linux-find-command-with-examples/ 
+https://askubuntu.com/questions/1452032/can-finds-newermt-accept-epoch-time 
 
