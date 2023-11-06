@@ -22,7 +22,47 @@ __Part 1__
 
 ![cd1](piclab3.png)
 - The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+``` java
+//buggy code
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+``` java
+//fixed code
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < (arr.length/2); i ++) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+  }
+```
+``` java
+//buggy coe
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+``` java
+    static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    int index = 0;
+    for(int i = arr.length-1; i > -1; i --) {
+      newArray[index] = arr[i];
+      index++;
+    }
+    return newArray;
+  }
+```
 - Briefly describe why the fix addresses the issue.
+The ` reverseInPlace(int[] arr)` returns the same array it started with instead of the reverse. 
 
 
 __Part 2__
