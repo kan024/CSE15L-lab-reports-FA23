@@ -19,6 +19,8 @@ __Part 1__
 	}
 ```
 - The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+
+![cd1](image8.png)
 - The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
 - Briefly describe why the fix addresses the issue.
 
