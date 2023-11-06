@@ -41,7 +41,7 @@ __Part 1__
   }
 ```
 ``` java
-//buggy coe
+//buggy code
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
@@ -51,6 +51,7 @@ __Part 1__
   }
 ```
 ``` java
+//fixed code
     static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     int index = 0;
@@ -62,7 +63,7 @@ __Part 1__
   }
 ```
 - Briefly describe why the fix addresses the issue.
-The ` reverseInPlace(int[] arr)` returns the same array it started with instead of the reverse. 
+The ` reverseInPlace(int[] arr)` method returns the same array it started with instead of the reverse. The new code reverses only the first half ofthe array so that it properly reverses thearray instead of looping through the entirety. The `reversed(int[] arr)`method returns the same array it started with, instead of a new reversed array. The fix made a new array `newArray` with the reversed contents of the original and properly returned the new array.
 
 
 __Part 2__
