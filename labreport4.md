@@ -10,6 +10,6 @@ Keys pressed: `<down>`, `<down>`, `<down>`, `<down>`, `<right>`, `<right>`, `<ri
 
 **8. Run the tests, demonstrating that they now succeed**
 
-To run the tests I clicked `<up>` `<up>` `<up>` `<up>` to get to `bash test.sh` and then I clicked `<enter>`
+To run the tests I clicked `<up>` `<up>` `<up>` `<up>` to get to `bash test.sh` because it was already in the search history, and then I clicked `<enter>`
 
 **9. Commit and push the resulting change to your Github account (you can pick any commit message!)**
