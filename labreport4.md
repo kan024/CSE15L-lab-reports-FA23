@@ -1,9 +1,13 @@
 **4. Log into ieng6**
 
+![img1](first4.png)
+
 **5. Clone your fork of the repository from your Github account (using the SSH URL)**
 
+![img1](2nd4.png)
 **6. Run the tests, demonstrating that they fail**
 
+![img1](4thimage.png)
 **7. Edit the code file to fix the failing test**
 
 Keys pressed: `<down>`, `<down>`, `<down>`, `<down>`, `<right>`, `<right>`, `<right>`, `<right>`, `<right>` doing this i got to the end of the word `index1` on the file, then I clicked `x` when hovering over the 1. I then clicked `i` to enter insert mode and then added in the number `2` to change the variable `index1` to `index2` After editing the variable, i clicked `esc` to exit from insert mode. After that, I typed `:wq` to save my edits and leave vim mode
