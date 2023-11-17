@@ -1,4 +1,4 @@
-**4. Log into ieng6**
+__**4. Log into ieng6**__
 
 **5. Clone your fork of the repository from your Github account (using the SSH URL)**
 
