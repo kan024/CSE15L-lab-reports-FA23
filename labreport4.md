@@ -1,5 +1,7 @@
 **4. Log into ieng6**
 
+Since my login `ssh cs15lfa23da@ieng6.ucsd.edu` was already in my history, I clicked `<up>` `<up>` in my empty terminal so `ssh cs15lfa23da@ieng6.ucsd.edu` showed up
+
 ![img1](first4.png)
 
 **5. Clone your fork of the repository from your Github account (using the SSH URL)**
