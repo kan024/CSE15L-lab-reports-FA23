@@ -8,7 +8,7 @@ Since my login `ssh cs15lfa23da@ieng6.ucsd.edu` was already in my history, I cli
 
 ![img1](2nd4.png)
 **6. Run the tests, demonstrating that they fail**
-
+First I did `cd lab7` to get into the directory of `lab7`
 ![img1](4thimage.png)
 **7. Edit the code file to fix the failing test**
 
