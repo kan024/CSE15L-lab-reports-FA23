@@ -12,6 +12,9 @@ First I did `cd lab7` to get into the directory of `lab7`
 ![img1](4thimage.png)
 **7. Edit the code file to fix the failing test**
 
+First I hovered over `index1` then I double clicked the word to delete it. 
+Next I clicked `i` to go into insert mode where i then typed `index2`
+
 Keys pressed: `<down>`, `<down>`, `<down>`, `<down>`, `<right>`, `<right>`, `<right>`, `<right>`, `<right>` doing this i got to the end of the word `index1` on the file, then I clicked `x` when hovering over the 1. I then clicked `i` to enter insert mode and then added in the number `2` to change the variable `index1` to `index2` After editing the variable, i clicked `esc` to exit from insert mode. After that, I typed `:wq` to save my edits and leave vim mode
 
 ![img1](6.png)
