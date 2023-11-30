@@ -21,13 +21,13 @@ First I hovered over the beginning of `index1` then I double clicked the word to
 
 ![img1](6.png)
 
-**8. Run the tests, demonstrating that they now succeed**
+**8. Run the tests, demonstrating that they now succeed**  
 
-To run the tests I clicked `<up>` `<up>` `<up>` `<up>` to get to `bash test.sh` because it was already in the search history, and then I clicked `<enter>`
+To run the tests I clicked `<up>` `<up>` `<up>` `<up>` to get to `bash test.sh` because it was already in the search history, and then I clicked `<enter>`  
 
-![img1](u2.png)
+![img1](u2.png)  
 
-**9. Commit and push the resulting change to your Github account (you can pick any commit message!)**
+**9. Commit and push the resulting change to your Github account (you can pick any commit message!)**  
 IN order to commit the changes, first I typed `git add ListExamples.java` and then clicked `enter`
 then i typed `git commit -m "Code has been updated` and after that message was typed i clicked `enter`
 then i typed `git push -u origin main` and then clicked `enter` to run the command. This allowed the changes to be pushed to the github repository. The changes I made while working on the ListExamples.java file were then seen in the github file link seen by using the browser.
