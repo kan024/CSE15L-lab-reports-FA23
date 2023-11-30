@@ -15,7 +15,7 @@ First I typed `cd lab7` to get into the directory of `lab7`, and then i pressed 
 
 To edit the code, I did `vim ListExamples.java` then clicked `enter` in order to enter vim mode. 
 
-![img1](u2.png)
+![img1](u1.png)
 
 First I hovered over the beginning of `index1` then I double clicked the word to highlight it. Then i clicked the `delete` key to delete the word. Next I clicked `i` to go into insert mode where i then typed `index2` after that I clicked `esc` in order to finalize the changes. After that, I typed `:wq` to save my edits and leave vim mode
 
@@ -24,7 +24,7 @@ First I hovered over the beginning of `index1` then I double clicked the word to
 **8. Run the tests, demonstrating that they now succeed**
 
 To run the tests I clicked `<up>` `<up>` `<up>` `<up>` to get to `bash test.sh` because it was already in the search history, and then I clicked `<enter>`
-![img1](u1.png)
+![img1](u2.png)
 **9. Commit and push the resulting change to your Github account (you can pick any commit message!)**
 IN order to commit the changes, first I typed `git add ListExamples.java` and then clicked `enter`
 then i typed `git commit -m "Code has been updated` and after that message was typed i clicked `enter`
