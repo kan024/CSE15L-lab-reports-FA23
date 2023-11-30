@@ -9,7 +9,7 @@ Once I was logged into the terminal, I was prompted to type the next xommand. I 
 
 ![img1](2nd4.png)
 **6. Run the tests, demonstrating that they fail**
-First I did `cd lab7` to get into the directory of `lab7`
+First I typed `cd lab7` to get into the directory of `lab7`, and then i pressed `enter` to get myself into the directory. Then, once the terminal showed I was in the directory i typed `bash test.sh` and then clicked `enter` in order to run the tests and dispay the results.
 ![img1](4thimage.png)
 **7. Edit the code file to fix the failing test**
 
@@ -17,6 +17,7 @@ First I hovered over the beginning of `index1` then I double clicked the word to
 Next I clicked `i` to go into insert mode where i then typed `index2` after that I clicked `esc` in order to finalize the changes. After that, I typed `:wq` to save my edits and leave vim mode
 
 ![img1](6.png)
+
 **8. Run the tests, demonstrating that they now succeed**
 
 To run the tests I clicked `<up>` `<up>` `<up>` `<up>` to get to `bash test.sh` because it was already in the search history, and then I clicked `<enter>`
