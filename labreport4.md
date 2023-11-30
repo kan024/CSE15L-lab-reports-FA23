@@ -1,10 +1,10 @@
 **4. Log into ieng6**
 
-Since my login `ssh cs15lfa23da@ieng6.ucsd.edu` was already in my history, I clicked `<up>` `<up>` in my empty terminal so `ssh cs15lfa23da@ieng6.ucsd.edu` showed up in the terminal. ONce it displayed itself in the terminal, i clicked `enter` in order to log into my ssh ucsd account.
+Since my login `ssh cs15lfa23da@ieng6.ucsd.edu` was already in my history, I clicked `<up>` `<up>` in my empty terminal so `ssh cs15lfa23da@ieng6.ucsd.edu` showed up in the terminal. ONce it displayed itself in the terminal, i clicked `enter` in order to log into my ssh ucsd account.  
 
-![img1](first4.png)
+![img1](first4.png)  
 
-**5. Clone your fork of the repository from your Github account (using the SSH URL)**
+**5. Clone your fork of the repository from your Github account (using the SSH URL)**  
 Once I was logged into the terminal, I was prompted to type the next xommand. I had previously copied the ssh link from the github link. I right clicked on my mouse, which is the command to paste something into vs code terminal. Once it was pasted I pressed `enter`
 
 ![img1](2nd4.png)
