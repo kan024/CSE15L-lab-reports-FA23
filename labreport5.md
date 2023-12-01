@@ -22,5 +22,16 @@ means that the length of the array I expected from it is different from the leng
 
 **Student:** I am iterating through every string in list one using  `(letter.equals(letter.toUpperCase()))`. If a letter in list 1 equals the upper cased version of that letter, it is added to an empty array list. 
 
-<img width="265" alt="image" src="https://github.com/kan024/CSE15L-lab-reports-FA23/assets/146775606/894de4a2-1f0f-49a6-bbba-86282cf6d191">
+<img width="1080" alt="image" src="https://github.com/kan024/CSE15L-lab-reports-FA23/assets/146775606/894de4a2-1f0f-49a6-bbba-86282cf6d191">
+
+**TA:** Is the `capital` method supposed to iterate over one list or 2 lists?
+
+**Student:** Two lists, i see now. 
+
+
+> 4. At the end, all the information needed about the setup including:
+> *The file & directory structure needed
+> *The contents of each file before fixing the bug
+> *The full command line (or lines) you ran to trigger the bug
+> *A description of what to edit to fix the bug
 
