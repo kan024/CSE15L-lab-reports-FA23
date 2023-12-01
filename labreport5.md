@@ -14,3 +14,7 @@ means that the length of the array I expected from it is different from the leng
 **TA:** What do you think that means? Is your code `capital` not returning enough items? Or is your code `capital` returning the wrong things?
 
 **Student:** I think my code is not returning enough items. It was able to discern `"X"` is a capital letter and  `"a"` is not a capital letter. 
+
+**TA:** How are you checking for capital letters in your method `capital`? What methods are you using? 
+
+**Student:** I am iterating through every string in list one using  `(letter.equals(letter.toUpperCase()))`. If a letter in list 1 equals the upper cased version of that letter, it is added to an empty array list. 
