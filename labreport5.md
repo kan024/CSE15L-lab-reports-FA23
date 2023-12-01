@@ -9,7 +9,7 @@ letters in them. It was able to correctly return the list containing `"X"`  when
 **Student:** it says "array lengths differed, expected.length=2 actual.length=1; arrays first differed at element [1]; expected:<C> but was:<end of array>" I think this 
 means that the length of the array I expected from it is different from the length of the array my `capital` methods gives me. 
 
-<img width="616" alt="image" src="https://github.com/kan024/CSE15L-lab-reports-FA23/assets/146775606/b1fc749c-c7a2-40b7-9466-00fb7989aa75">
+<img width="1080" alt="image" src="https://github.com/kan024/CSE15L-lab-reports-FA23/assets/146775606/b1fc749c-c7a2-40b7-9466-00fb7989aa75">
 
 
 > 2. A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
