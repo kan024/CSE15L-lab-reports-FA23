@@ -1,7 +1,5 @@
-**Part 1 – Debugging Scenario**
-__1. The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some__
-
-sense of what the failure-inducing input is. (Don’t actually make the post! Just write the content that would go in such a post)
+## Part 1 – Debugging Scenario
+> 1. The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is. (Don’t actually make the post! Just write the content that would go in such a post)
 
 **Student:** Hello TA, I am having a hard time debugging my code. The `capital` method of my code takes two lists of string charaters and returns all the ones that has capital 
 letters in them. It was able to correctly return the list containing `"X"`  when I have them `"X"` for list one and `"a"` for list two in one test, but not the other. 
