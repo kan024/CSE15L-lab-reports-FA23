@@ -33,5 +33,14 @@ means that the length of the array I expected from it is different from the leng
 > *The file & directory structure needed  
 > *The contents of each file before fixing the bug  
 > *The full command line (or lines) you ran to trigger the bug  
-> *A description of what to edit to fix the bug  
+> *A description of what to edit to fix the bug
+
+The file `ListExamples.java` before the bug fix. This file is able to take in two string lists of characters, and return a single list of all capital letter lists in both the lists.
+<img width="1080" alt="image" src="https://github.com/kan024/CSE15L-lab-reports-FA23/assets/146775606/923574cf-0332-4144-9476-71d899c0ebef">
+
+This is the test file that tests if `ListExamples.java`  is able to correctly return the capital letters.
+<img width="1080" alt="image" src="https://github.com/kan024/CSE15L-lab-reports-FA23/assets/146775606/d45c887d-e2c4-4714-b05c-ab929a11f63e">
+
+
+
 
