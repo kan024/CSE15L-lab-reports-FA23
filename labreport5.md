@@ -18,3 +18,6 @@ means that the length of the array I expected from it is different from the leng
 **TA:** How are you checking for capital letters in your method `capital`? What methods are you using? 
 
 **Student:** I am iterating through every string in list one using  `(letter.equals(letter.toUpperCase()))`. If a letter in list 1 equals the upper cased version of that letter, it is added to an empty array list. 
+
+<img width="265" alt="image" src="https://github.com/kan024/CSE15L-lab-reports-FA23/assets/146775606/894de4a2-1f0f-49a6-bbba-86282cf6d191">
+
