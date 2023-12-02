@@ -43,8 +43,12 @@ This is the test file that tests if `ListExamples.java`  is able to correctly re
 <img width="1080" alt="image" src="https://github.com/kan024/CSE15L-lab-reports-FA23/assets/146775606/d45c887d-e2c4-4714-b05c-ab929a11f63e">
 
 > *The full command line (or lines) you ran to trigger the bug
->
-> 
+
+The line that triggered the bug was `assertArrayEquals(new String[]{ "A", "C" }, ListExamples.capital(l1, l2).toArray());` which is line 19 of `ListExamplesTests.java`. This triggered the bug because the expected array list `"A", "C"`, which had a length of two did not match up with the result `ListExamples.capital(l1, l2).toArray()` which had a length of one. This caused the `assertArrayEquals` line to fail. 
+The full line that caused this to fail is <img width="1080" alt="image" src="https://github.com/kan024/CSE15L-lab-reports-FA23/assets/146775606/8403182e-7f28-4d2b-bcca-d2b8e4e1fdd3">
+
+<img width="1080" alt="image" src="https://github.com/kan024/CSE15L-lab-reports-FA23/assets/146775606/6e2a977f-47fd-493d-8c05-e037e4689068">
+
 > *A description of what to edit to fix the bug
 
 
