@@ -26,12 +26,19 @@ means that the length of the array I expected from it is different from the leng
 
 **TA:** Is the `capital` method supposed to iterate over one list or 2 lists?
 
-**Student:** Two lists, i see now. 
+**Student:** The `capital` method is supposed to iterate over two lists, meaning list1 and list 2. Not just list 1
+
+> 3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
+
+The student is now iterating over list1 and list2 instead of just list1. 
+
+After:
+<img width="1080" alt="image" src="https://github.com/kan024/CSE15L-lab-reports-FA23/assets/146775606/ccda0c2f-cbdf-43ee-9390-fa82b528b74e">
 
 
 > 4. At the end, all the information needed about the setup including:  
 > *The file & directory structure needed
-<img width="564" alt="image" src="https://github.com/kan024/CSE15L-lab-reports-FA23/assets/146775606/e409866d-1630-4f55-b343-7670378a0116">
+<img width="1080" alt="image" src="https://github.com/kan024/CSE15L-lab-reports-FA23/assets/146775606/e409866d-1630-4f55-b343-7670378a0116">
 
 
 > *The contents of each file before fixing the bug  
