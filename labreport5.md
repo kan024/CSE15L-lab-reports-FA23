@@ -30,10 +30,12 @@ means that the length of the array I expected from it is different from the leng
 
 > 3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
 
-The student is now iterating over list1 and list2 instead of just list1. 
+The student is now iterating over list1 and list2 instead of just list1. They are not able to pass both tests because the length and content of their expected and their result are the same. The bug in this case was a bug that showed `capital` method gave the wrong output, because they were adding the capital letters of `list1` to the list of returned capital letters and not `list2`
 
 NewCode:
 <img width="1080" alt="image" src="https://github.com/kan024/CSE15L-lab-reports-FA23/assets/146775606/ccda0c2f-cbdf-43ee-9390-fa82b528b74e">
+Result:
+<img width="1080" alt="image" src="https://github.com/kan024/CSE15L-lab-reports-FA23/assets/146775606/32078955-6478-4761-a4bd-082b475303ad">
 
 
 > 4. At the end, all the information needed about the setup including:  
