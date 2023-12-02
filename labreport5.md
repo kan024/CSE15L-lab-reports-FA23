@@ -32,7 +32,7 @@ means that the length of the array I expected from it is different from the leng
 
 The student is now iterating over list1 and list2 instead of just list1. 
 
-After:
+NewCode:
 <img width="1080" alt="image" src="https://github.com/kan024/CSE15L-lab-reports-FA23/assets/146775606/ccda0c2f-cbdf-43ee-9390-fa82b528b74e">
 
 
