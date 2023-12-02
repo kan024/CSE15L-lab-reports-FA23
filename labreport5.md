@@ -1,7 +1,7 @@
 ## Part 1 – Debugging Scenario
 > 1. The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is. (Don’t actually make the post! Just write the content that would go in such a post)
 
-**Student:** Hello TA, I am having a hard time debugging my code. The `capital` method of my code takes two lists of string charaters and returns all the ones that has capital 
+**Student:** Hello TA, I am having a hard time debugging my code. The `capital` method of my code takes two lists of string charaters and returns all the strings that have capital 
 letters in them. It was able to correctly return the list containing `"X"`  when I gave my `capital` method the lists `"X"` and `"a"`
 
 **TA:** Hmm that is strange. What does the error output in the terminal say?
@@ -59,7 +59,7 @@ The full line that caused this to fail is <img width="1080" alt="image" src="htt
 <img width="1080" alt="image" src="https://github.com/kan024/CSE15L-lab-reports-FA23/assets/146775606/6e2a977f-47fd-493d-8c05-e037e4689068">
 
 > *A description of what to edit to fix the bug
-
+The student had to edit the `capital` method in the file `ListExamples.java`. They had to add extra lines of code that checked if there were cpaital letter strings in not just `list1`, but also `ist2`. By doing this, the code now checks both `list1` and `list2` for capital letter strings, and not just `list1`
 
 
 
